@@ -1,0 +1,57 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=latex 2021.11.7)  7 NOV 2021 00:22
+entering extended mode
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
+e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
+@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
+umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
+x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
+ode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  .\ln1_straight_
+line_geometry_or_co-ordinate_geometry.tex
+(C:\Users\simeo\AppData\Local\Programs\MiKTeX\tex/latex/tools\.tex
+File ignored)
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> ...t]}}}\makeatother\HCode .a.b.c.\input  .\ln
+                                                  1_straight_line_geometry_o...
+
+? $$
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? Q_d = -20P + 1600
+OK, entering \batchmode...
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> ...t]}}}\makeatother\HCode .a.b.c.\input  .\ln
+                                                  1_straight_line_geometry_o...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 0.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 0.
+! Emergency stop.
+<*> ...t_line_geometry_or_co-ordinate_geometry.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 32 strings out of 478928
+ 571 string characters out of 2852561
+ 290169 words of memory out of 3000000
+ 17983 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,2n,12p,594b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

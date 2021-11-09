@@ -1,0 +1,296 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{relsize}
+\pgfplotsset{compat=newest}
+\title{%
+    ECN 1101 - Introductory Maths - Semester 1 2021 \\
+    \large Worksheet 2 \\
+}
+\author{Lecturer: Anand Persaud \\ "Transliterator": Simeon Chester \\}
+\date{2021-11-07}
+\begin{document}
+\maketitle
+\relscale{1.5}
+\section*{Simplify}
+
+\begin{description}
+    \item[1. ]  $\frac{x^2+3x+2}{x^2+4x+3}$
+        $$
+            \begin{aligned}
+                 & = \frac{x^2 + 2x + x + 2}{x^2 + 3x + x + 3}            \\
+                 & = \frac{x(x+2)+ 1(x+2)}{x(x+3)+1(x+3)}                 \\
+                 & = \frac{(x+1)(x+2) \div (x+1)}{(x+1)(x+3) \div{(x+1)}} \\
+                 & = \frac{x+2}{x+3}                                      \\
+            \end{aligned}
+        $$
+    \item[2. ]  $\frac{3x^2-14x+8}{x^2-16}$
+        $$
+            \begin{aligned}
+                 & = \frac{3x^2 - 12x - 2x + 8}{(x)^2-(4)^2} \\
+                 & = \frac{3x(x-4)-2(x-4)}{(x+4)(x-4)}       \\
+                 & = \frac{(3x-2)(x-4)}{(x+4)(x-4)}          \\
+                 & = \frac{3x-2}{x+4}                        \\
+            \end{aligned}
+        $$
+    \item[3. ] $\frac{15a^4b^5}{30a^3b}$
+        $$
+            \begin{aligned}
+                 & = \frac{15}{30}(a^4-a^3)(b^5-b^1) \\
+                 & = \frac{1}{2}ab^4                 \\
+            \end{aligned}
+        $$
+    \item[4. ] $\frac{6x^3y^3-15x^2y}{3x^2y^2+9x^2y}$
+        $$
+            \begin{aligned}
+                 & = \frac{6x^3 y^3 - 15x^2y \ \div 3}{3x^2y^2+9x^2y \ \div 3}   \\
+                 & = \frac{2x^3 y^3 - 5x^2y}{x^2y^2+3x^2y}                       \\
+                 & = \frac{2x^3 y^3 - 5x^2y\ \div x^2y}{x^2y^2+3x^2y\ \div x^2y} \\
+                 & = \frac{2x y^2 - 5}{y+3}                                      \\
+            \end{aligned}
+        $$
+    \item[5. ] $\frac{15ac^2}{7bd} \div \frac{4a}{14b^2d}$
+        $$
+            \begin{aligned}
+                 & = \frac{15ac^2}{7bd} \times \frac{14b^2d}{4a}     \\
+                 & = \frac{(15 \times 14) ab^2c^2d}{(7\times 4) abd} \\
+                 & = \frac{210 ab^2c^2d}{28 abd}                     \\
+                 & = \frac{15bc^2}{2}                                \\
+            \end{aligned}
+        $$
+    \item[6. ] $\frac{x}{x+1} + x+1$
+        $$
+            \begin{aligned}
+                 & = \frac{x}{x+1}+\frac{(x+1)(x+1)}{x+1} \\
+                 & = \frac{x+x(x+1)+1(x+1)}{x+1}          \\
+                 & = \frac{x+x^2+x+x+1}{x+1}              \\
+                 & = \frac{x^2+3x+1}{x+1}                 \\
+            \end{aligned}
+        $$
+    \item[7. ] $x-\frac{2}{x-1}$
+        $$
+            \begin{aligned}
+                 & = \frac{(x-1)(x) - 2}{x-1}     \\
+                 & = \frac{x^2-x - 2}{x-1}        \\
+                 & = \frac{x^2 - 2x + x - 2}{x-1} \\
+                 & = \frac{x(x-2)+1(x-2)}{x-1}    \\
+                 & = \frac{(x+1)(x-2)}{x-1}       \\
+            \end{aligned}
+        $$
+    \item[8. ] $\frac{49}{3x+6} + \frac{5a^2}{4x+8}$
+        $$
+            \begin{aligned}
+                 & = \frac{(4x+8)(49) + (3x+6)(5a^2)}{(3x+6)(4x+8)}                       \\
+                 & = \frac{196x+392 + 15a^2x + 30a^2}{(3x+6)(4x+8)}                       \\
+                 & = \frac{15a^2x + 30a^2 + 196x + 392}{3x(4x+8)+6(4x+8)}                 \\
+                 & = \frac{15a^2x + 30a^2 + 196x + 392}{12x^2+24x+24x+48}                 \\
+                 & = \frac{15a^2x + 30a^2 + 196x + 392}{12x^2+48x+48}                     \\
+                 & = \frac{15a^2(x+2)+196(x+2)}{12(x^2+4x+4)}                             \\
+                 & = \frac{15a^2(x+2)+196(x+2)}{12(x^2+2x+2x+4)}                          \\
+                 & = \frac{15a^2(x+2)+196(x+2)}{12(x(x+2)+2(x+2))}                        \\
+                 & = \frac{15a^2(x+2)+196(x+2) \ \div (x+2)}{12((x+2)(x+2)) \ \div (x+2)} \\
+                 & = \frac{15a^2 + 196}{12(x+2)}                                          \\
+            \end{aligned}
+        $$
+\end{description}
+
+\section*{Solve}
+\begin{description}
+    \item[1. ]  $\sqrt{x+5} = 4$
+        $$
+            \begin{aligned}
+                \sqrt{x} + \sqrt{5} & = 4                \\
+                \sqrt{x}            & = 4 - \sqrt{5}     \\
+                x                   & = (4 - \sqrt{5})^2 \\
+                x                   & = 16 - 5           \\
+                x                   & = 11               \\
+            \end{aligned}
+        $$
+    \item[2. ]  $\sqrt{3x-4} - 8 = 0$
+        $$
+            \begin{aligned}
+                 & \sqrt{3x-4}  = 8                 \\
+                 & \sqrt{3x} - \sqrt{4}  = 8        \\
+                 & \sqrt{3x}   = 8 + \sqrt{4}       \\
+                 & 3x   = (8 + \sqrt{4})^2          \\
+                 & 3x   = 64 + 4                    \\
+                 & 3x   = 68                        \\
+                 & x   = \frac{68}{3}   \ OR \ 22.6 \\
+            \end{aligned}
+        $$
+    \item[3. ]  $\sqrt{4x-6} = \sqrt{x}$
+        $$
+            \begin{aligned}
+                \sqrt{4x-6} - \sqrt{x}          & =0            \\
+                \sqrt{4x} - \sqrt{6} - \sqrt{x} & =0            \\
+                \sqrt{4x}  - \sqrt{x}           & =\sqrt{6}     \\
+                (\sqrt{4x}  - \sqrt{x})^2       & =(\sqrt{6})^2 \\
+                4x  - x                         & =6            \\
+                3x                              & =6            \\
+                x                               & =\frac{6}{3}  \\
+                x                               & =2            \\
+            \end{aligned}
+        $$
+    \item[4. ]  $\sqrt{-2x+3} \le 6$
+        $$
+            \begin{aligned}
+                -2x + 3 & \le 36            \\
+                -2x     & \le 36-3          \\
+                x       & \ge -\frac{33}{2} \\
+            \end{aligned}
+        $$
+    \item[5. ]  $3(2-3x) > 4(1-4x)$
+        $$
+            \begin{aligned}
+                6-9x   & > 4-16x        \\
+                16x-9x & > 4-6          \\
+                7x     & > -2           \\
+                x      & > -\frac{2}{7} \\
+            \end{aligned}
+        $$
+    \item[6. ]  $\frac{5}{6}x < 40$
+        $$
+            \begin{aligned}
+                x & < 40 \times \frac{6}{5} \\
+                x & < \frac{240}{5}         \\
+                x & < 48                    \\
+            \end{aligned}
+        $$
+\end{description}
+\clearpage
+
+\section*{\centering Exponents and Radicals}
+\subsection*{Rules}
+\begin{description}
+    \item[1.] $x^m \times x^n = x^{m+n}$
+        $$2^5 \times 2^3 = 2^8$$
+
+    \item[2.] $x^0 =1$
+        $$2^0 = 1$$
+
+    \item[3.] $x^{-n} = \frac{1}{x^n}$
+        $$2^{-3}=\frac{1}{2^3}$$
+
+    \item[4.] $\frac{1}{x^{-n}} = x^n$
+        $$\frac{1}{2^{-3}} = 2^3$$
+
+    \item[5.] $\frac{x^{m}}{x^{n}} = x^{m-n} = \frac{1}{x^{n-m}}$
+        $$\frac{2^{12}}{2^8} = 2^4 \ OR \ \frac{x^8}{x^{12}}=\frac{1}{x^4}$$
+
+    \item[6.] $(x^m)^n = x^{mn}$
+        $$(2^3)^5 = 2^{15} \ OR \ (x^2)^3 = x^6$$
+
+    \item[7.] $(xy)^n = x^ny^n$
+        $$(2 \times 4)^3 = 2^3 \times 4^3$$
+
+    \item[8.] $(\frac{x}{y})^n = \frac{x^n}{y^n}$
+        $$(\frac{2}{3})^3 = \frac{2^3}{3^3}$$
+
+    \item[9.] $(\frac{x}{y})^{-n} = (\frac{y}{x})^n$
+        $$(\frac{3}{4})^{-2} = (\frac{4}{3})^2$$
+
+    \item[10.] $x^{\frac{1}{n}} = \sqrt[n]{x}$
+        $$3^{\frac{1}{5}} = \sqrt[5]{3} \ \ OR \ \ \sqrt[]{a} = a^{\frac{1}{2}}$$
+
+    \item[11.] $x^{\frac{2}{3}} = \sqrt[3]{x^2}$
+
+    \item[12.]  $x^{-\frac{1}{n}} = \frac{1}{x^{\frac{1}{n}}} = \frac{1}{\sqrt[n]{x}}$
+        $$4^-{\frac{1}{2}} = \frac{1}{4^{\frac{1}{2}}} = \frac{1}{\sqrt[]{4}}$$
+
+    \item[13.] $\frac{\sqrt[n]{x}}{\sqrt[n]{y}} = \sqrt[n]{\frac{x}{y}}$
+    \item[14.] $(\sqrt[m]{x})^m = x$
+\end{description}
+\clearpage
+
+\section*{To do}
+\subsection*{Simplify}
+\begin{description}
+    \item[1.] $\sqrt[]{4x}$
+        $$
+            \begin{aligned}
+                 & = 2\ \sqrt[]{x} \\
+            \end{aligned}
+        $$
+    \item[2.] $\sqrt[]{16x^4}$
+        $$
+            \begin{aligned}
+                 & = 4x^2 \\
+            \end{aligned}
+        $$
+    \item[3.] $\sqrt[4]{\frac{x}{16}}$
+        $$
+            \begin{aligned}
+                 & = \frac{\sqrt[4]{x}}{2} \\
+            \end{aligned}
+        $$
+    \item[4.] $(9z^4)^{\frac{1}{2}}$
+        $$
+            \begin{aligned}
+                 & = 9^\frac{1}{2}z^2 \\
+                 & = 3z^2             \\
+            \end{aligned}
+        $$
+    \item[5.] $(16y^8)^{\frac{3}{4}}$
+        $$
+            \begin{aligned}
+                 & = (2^4y^8)^\frac{3}{4} \\
+                 & = 2^3y^6               \\
+                 & = 8y^6                 \\
+            \end{aligned}
+        $$
+    \item[6.] $(\frac{27t^3}{8})^\frac{2}{3}$
+        $$
+            \begin{aligned}
+                 & = (\frac{3^3 t^3}{2^3})^\frac{2}{3} \\
+                 & = \frac{3^2 t^2}{2^2}               \\
+                 & = \frac{9 t^2}{4}                   \\
+            \end{aligned}
+        $$
+\end{description}
+\clearpage
+
+\subsection*{Avoid radicals and express in positive exponents}
+\begin{description}
+    \item[1.] $y^{-1}\sqrt[]{x}$
+        $$
+            \begin{aligned}
+                 & = \frac{1}{y} x^{\frac{1}{2}} \\
+                 & = \frac{x^\frac{1}{2}}{y}     \\
+            \end{aligned}
+        $$
+    \item[2.] $\frac{a^5b^{-3}}{c^{-2}}$
+        $$
+            \begin{aligned}
+                 & = a^5 \times \frac{1}{b^{3}} \div \frac{1}{c^2} \\
+                 & = a^5 \times \frac{1}{b^{3}} \times c^2         \\
+                 & = a^5 \times \frac{c^2}{b^3}                    \\
+                 & = \frac{a^5c^2}{b^3}                            \\
+            \end{aligned}
+        $$
+    \item[3.] $(3t)^{-2}$
+        $$
+            \begin{aligned}
+                 & = \frac{1}{(3t)^2} \\
+                 & = \frac{1}{9t^2}   \\
+            \end{aligned}
+        $$
+    \item[4.] $\sqrt[5]{5x^2}$
+        $$
+            \begin{aligned}
+                 & = 5^\frac{1}{5}x^\frac{2}{5} \\
+                 & = (5x^2)^\frac{1}{5}         \\
+            \end{aligned}
+        $$
+    \item[5.] $\sqrt[]{x}-\sqrt[]{y}$
+        $$
+            \begin{aligned}
+                 & = x^\frac{1}{2}-y^\frac{1}{2} \\
+            \end{aligned}
+        $$
+\end{description}
+\end{document}

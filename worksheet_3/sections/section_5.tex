@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{relsize}
+\usepackage{hyperref}
+\pgfplotsset{compat=newest}
+
+\begin{document}
+\section[]{Determine which are $\parallel$, $\perp$ or neither.}
+\begin{description}
+    \item[1]
+        $$
+            \begin{array}{c}
+                A \\
+                (y = 4x +3)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (y = 5-4x)
+            \end{array}
+        $$
+        Writing both equations in the form $y=mx+c$
+        $$
+            \begin{array}{c}
+                A \\
+                (y = 4x +3)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (y = -4x + 5)
+            \end{array}
+        $$
+        Given $m_A*m_B \neq -1$ and $m_A \neq m_B$ the lines are neither $\perp$ or $\parallel$.
+    \item[2]
+        $$
+            \begin{array}{c}
+                A \\
+                (3y=12x+3)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (y-5=4x)
+            \end{array}
+        $$
+
+        Writing both equations in the form $y=mx+c$
+        $$
+            \begin{array}{c}
+                A \\
+                (y=4x+1)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (y=4x+5)
+            \end{array}
+        $$
+        Given $m_A = m_B$ the lines are $\parallel$.
+    \item[3]
+        $$
+            \begin{array}{c}
+                A \\
+                (x+3y=0)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (2x+6y-4=0)
+            \end{array}
+        $$
+        Writing both equations in the form $y=mx+c$
+        $$
+            \begin{array}{c}
+                A \\
+                (y = -0.3x + 0)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (y = -0.3x+0.6)
+            \end{array}
+        $$
+        Given $m_A = m_B$ the lines are $\parallel$.
+    \item[4]
+        $$
+            \begin{array}{c}
+                A \\
+                (y=3)
+            \end{array}
+            \begin{array}{c}
+                B \\
+                (x=\frac{1}{3})
+            \end{array}
+        $$
+        It's impossible to determine whether the lines are $\perp$, $\parallel$ or neither.
+
+\end{description}
+\end{document}
